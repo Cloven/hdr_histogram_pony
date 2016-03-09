@@ -51,7 +51,7 @@ fi
 
 if [ ! -f ./test_report.txt ]; then
   echo "Hdr_pony_tests: Running tests"
-  bin/hdr_tests | tee test_report.txt
+  ./bin/hdr_tests | tee test_report.txt
   if [ "$#" == "0" ]; then
     echo "All tests passed"
   else

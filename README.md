@@ -116,7 +116,7 @@ actor Main
 ## A note on tuning ##
 
 
-A common useage example of HdrHistogram is to record response times, in units of microseconds, across a dynamic range stretching from 1 usec to over an hour. We want a good enough resolution to support performing post-recording analysis on the collected data at some future time.
+A common usage example of HdrHistogram is to record response times, in units of microseconds, across a dynamic range stretching from 1 usec to over an hour. We want a good enough resolution to support performing post-recording analysis on the collected data at some future time.
 
 In order to facilitate the accuracy needed for such post-recording activities, we can maintain a resolution of ~1 usec or better for times ranging to ~2 msec in magnitude, while at the same time maintaining a resolution of ~1 msec or better for times ranging to ~2 sec, and a resolution of ~1 second or better for values up to 2,000 seconds, and so on. This sort of dynamic resolution can be thought of as "always accurate to 3 decimal points".
 

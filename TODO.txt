@@ -1,0 +1,12 @@
+TODO
+----
+
+* Remove c_src helper code and replace with pure pony
+* Replace C implementation with native pony implementation
+* Cleanup examples
+* Flesh out iterators and clean up iterators
+* Add classic and csv printing functions compatible with other HDR Histogram implementations
+* Remove partials where possible to simplify usage
+* Test on Linux
+* Find a windows human to test/port/confirm on windows
+* Add C vs Pony comparative tests ( eg: use same RNG )
